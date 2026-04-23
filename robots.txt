@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cascaveltaxi24h.com.br/sitemap.xml

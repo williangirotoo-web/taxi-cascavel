@@ -98,6 +98,16 @@
 </nav>
 
 <section class="hero">
+  <div class="hero-bg">
+    <div class="hero-bg-slide active" style="background-image:url('images/hero/hero-aeroporto-cascavel.webp')" role="img" aria-label="Motorista de táxi executivo aguardando passageiro no Aeroporto Regional do Oeste em Cascavel"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-executivo-centro.webp')" role="img" aria-label="Táxi executivo Cascavel parado no centro corporativo da cidade"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-corporate-bagagem.webp')" role="img" aria-label="Transporte executivo com auxílio de bagagem em prédio corporativo de Cascavel"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-rodoviaria-familia.webp')" role="img" aria-label="Van executiva recebendo família na Rodoviária de Cascavel"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-rodovia-br277.webp')" role="img" aria-label="Veículo de viagem intermunicipal na BR-277 saindo de Cascavel"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-aeroporto-motorista.webp')" role="img" aria-label="Motorista entregando bagagem a passageiro no Aeroporto Regional do Oeste Cascavel"></div>
+    <div class="hero-bg-slide" style="background-image:url('images/hero/hero-hospital-acolhimento.webp')" role="img" aria-label="Motorista auxiliando paciente em transporte para hospital em Cascavel"></div>
+  </div>
+  <div class="hero-bg-overlay"></div>
   <div class="container">
     <div class="hero-inner">
       <div>
@@ -345,35 +355,31 @@
 <section class="section" style="background:var(--dark2)">
   <div class="container">
     <div class="sec-header">
-      <div class="tag">Nossa Frota Premium</div>
-      <h2 class="sec-title">Veículos <em>Executivos</em> em Cascavel</h2>
-      <p class="sec-sub">Frota premium com os melhores SUVs e sedãs executivos. Escolha o veículo ideal para sua viagem.</p>
+      <div class="tag">Nossa Frota</div>
+      <h2 class="sec-title">Conheça os <em>veículos</em> que atendem Cascavel</h2>
+      <p class="sec-sub">Veículos reais da nossa operação, prontos para cada tipo de corrida.</p>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px">
-      <a href="veiculos/corolla.html" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;padding:24px 16px;text-align:center;text-decoration:none;transition:border-color 0.3s;display:block" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='rgba(245,197,24,0.12)'">
-        <div style="font-size:2.2rem;margin-bottom:10px">🚗</div>
-        <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Toyota Corolla</div>
-        <div style="font-size:0.65rem;color:var(--gray)">Sedã Executivo</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px">
+      <a href="pages/transfer-aeroporto.html" style="background:var(--dark3);border:2px solid var(--yellow);border-radius:14px;overflow:hidden;text-decoration:none;display:block">
+        <div style="aspect-ratio:4/3;overflow:hidden"><img src="img/frota/taxi-aeroporto-cascavel.webp" alt="Transfer aeroporto Cascavel" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+        <div style="padding:16px;text-align:center">
+          <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Transfer Aeroporto</div>
+          <div style="font-size:0.65rem;color:var(--yellow)">Mais procurado</div>
+        </div>
       </a>
-      <a href="veiculos/jeep-commander.html" style="background:var(--dark3);border:2px solid var(--yellow);border-radius:14px;padding:24px 16px;text-align:center;text-decoration:none;display:block">
-        <div style="font-size:2.2rem;margin-bottom:10px">🚙</div>
-        <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Jeep Commander</div>
-        <div style="font-size:0.65rem;color:var(--yellow)">SUV 7 Lugares</div>
+      <a href="pages/taxi-executivo.html" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;overflow:hidden;text-decoration:none;display:block;transition:border-color 0.3s" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="aspect-ratio:4/3;overflow:hidden"><img src="img/frota/corolla-executivo-cascavel.webp" alt="Táxi executivo Cascavel" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+        <div style="padding:16px;text-align:center">
+          <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Sedã Executivo</div>
+          <div style="font-size:0.65rem;color:var(--gray)">Toyota Corolla ou similar</div>
+        </div>
       </a>
-      <a href="veiculos/jeep-compass.html" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;padding:24px 16px;text-align:center;text-decoration:none;transition:border-color 0.3s;display:block" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='rgba(245,197,24,0.12)'">
-        <div style="font-size:2.2rem;margin-bottom:10px">🚙</div>
-        <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Jeep Compass</div>
-        <div style="font-size:0.65rem;color:var(--gray)">SUV Premium</div>
-      </a>
-      <a href="veiculos/corolla-cross.html" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;padding:24px 16px;text-align:center;text-decoration:none;transition:border-color 0.3s;display:block" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='rgba(245,197,24,0.12)'">
-        <div style="font-size:2.2rem;margin-bottom:10px">🚙</div>
-        <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Corolla Cross</div>
-        <div style="font-size:0.65rem;color:var(--gray)">SUV Híbrido</div>
-      </a>
-      <a href="veiculos/haval-h6.html" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;padding:24px 16px;text-align:center;text-decoration:none;transition:border-color 0.3s;display:block" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='rgba(245,197,24,0.12)'">
-        <div style="font-size:2.2rem;margin-bottom:10px">🚙</div>
-        <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Haval H6</div>
-        <div style="font-size:0.65rem;color:var(--gray)">SUV de Luxo</div>
+      <a href="#servicos" style="background:var(--dark3);border:1px solid var(--border);border-radius:14px;overflow:hidden;text-decoration:none;display:block;transition:border-color 0.3s" onmouseover="this.style.borderColor='rgba(245,197,24,0.4)'" onmouseout="this.style.borderColor='var(--border)'">
+        <div style="aspect-ratio:4/3;overflow:hidden"><img src="img/frota/taxi-rodoviaria-cascavel.webp" alt="Táxi conforto Cascavel" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+        <div style="padding:16px;text-align:center">
+          <div style="font-size:0.78rem;font-weight:700;color:var(--white);margin-bottom:4px">Táxi Conforto</div>
+          <div style="font-size:0.65rem;color:var(--gray)">Chevrolet Onix ou similar</div>
+        </div>
       </a>
     </div>
   </div>
@@ -681,5 +687,18 @@
 </style>
 
 <script src="js/main.js"></script>
+
+<script>
+(function(){
+  var slides = document.querySelectorAll('.hero-bg-slide');
+  if (slides.length < 2) return;
+  var current = 0;
+  setInterval(function(){
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }, 5000);
+})();
+</script>
 </body>
 </html>

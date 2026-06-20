@@ -17,6 +17,8 @@
   "description": "Taxi em Cascavel 24 horas. Aeroporto, viagens intermunicipais e taxi executivo.",
   "telephone": "+55-45-99118-5798",
   "priceRange": "$",
+  "url": "https://www.cascaveltaxi24h.com.br/",
+  "sameAs": ["https://wa.me/5545991185798"],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Cascavel",
@@ -35,13 +37,12 @@
     "closes": "23:59"
   },
   "areaServed": ["Cascavel","Toledo","Foz do Iguacu","Maringa","Curitiba"],
-  "serviceType": ["Taxi","Transfer Aeroporto","Taxi Executivo","Viagens Intermunicipais"],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "214",
-    "bestRating": "5"
-  }
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Taxi"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Transfer Aeroporto"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Taxi Executivo"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Viagens Intermunicipais"}}
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -55,39 +56,6 @@
     {"@type":"Question","name":"Quanto custa um taxi em Cascavel?","acceptedAnswer":{"@type":"Answer","text":"Os valores variam conforme o trajeto. Solicite orcamento pelo WhatsApp (45) 9 9118-5798 sem compromisso."}},
     {"@type":"Question","name":"Qual o melhor taxi de Cascavel?","acceptedAnswer":{"@type":"Answer","text":"O Taxi Cascavel e referencia em qualidade, pontualidade e atendimento 24 horas na cidade de Cascavel no Parana."}}
   ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "additionalType": "https://schema.org/TaxiService",
-  "name": "Táxi Cascavel 24h",
-  "image": "https://cascaveltaxi24h.com.br/images/corolla-executivo.jpg",
-  "url": "https://www.cascaveltaxi24h.com.br/",
-  "telephone": "+5545991185798",
-  "priceRange": "$$",
-  "areaServed": {
-    "@type": "City",
-    "name": "Cascavel",
-    "containedInPlace": {
-      "@type": "State",
-      "name": "Paraná"
-    }
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Cascavel",
-    "addressRegion": "PR",
-    "addressCountry": "BR"
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "sameAs": ["https://wa.me/5545991185798"]
 }
 </script>
 </head>
